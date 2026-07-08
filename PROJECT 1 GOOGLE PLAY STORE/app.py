@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 # App title and creator credit
-st.title("📱 Google Play Store Data Explorer")
-st.caption("Created by Atharv Singh")
+st.title("📲 Google Play Store Data Explorer")
+st.caption("Created by Anshika Dwivedi")
 
 # Upload CSV file
 uploaded_file = st.file_uploader("Upload Google Play Store CSV file", type=["csv"])
@@ -39,7 +39,7 @@ if uploaded_file is not None:
 
     # Footer credit
     st.markdown("---")
-    st.markdown("**Developed with ❤️ by Atharv Singh**")
+    st.markdown("**Developed with 💛 by Anshika dwivedi**")
 
 else:
     st.info("Please upload a Google Play Store dataset CSV to begin.")
