@@ -1,12 +1,5 @@
 streamlit
-openai
-langchain
-langchain-community
-langchain-core
-langchain-chroma
-langchain-text-splitters
-chromadb
-unstructured
-beautifulsoup4
-lxml
-tiktoken
+pandas
+numpy
+scikit-learn
+joblib
